@@ -1,0 +1,14 @@
+2d8c9bc43e6131c59da25b714f1ef909 *DESCRIPTION
+df390c53434517b304ac5db487184641 *NAMESPACE
+5ed5bf5a1a12bfc634bf10ac707d2833 *R/MAVTgsa.R
+c31300c0f889d3ee85f10e39d0aea49c *data/GS.rda
+25b7cd82e441aae1bd03d17f8c0d99c1 *data/data.rda
+345347bbf1a98e823bc9efbaffc7a9d6 *man/GS.Rd
+cca73147c160175580d6141ba8e28b09 *man/Hott2.Rd
+2647a9271a4df721067c3b435c9dedaf *man/MAVTgsa-package.Rd
+aa6ac0f1e57233148fada20f07ad9641 *man/MAVTn.Rd
+d9d4ea0a30d8672e446f097cb03abb3b *man/Tols.Rd
+477cbab082a074e303fad87c0fcb891f *man/Wilksn.Rd
+c8c8828e773c9005db1083cbdab23370 *man/data.Rd
+d4d31e05b2dd49444ef1e859442b5364 *man/design.matrix.Rd
+7fa36e2eb8c95aa76761297cf356fb90 *man/ma.estimate.Rd
