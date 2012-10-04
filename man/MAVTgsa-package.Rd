@@ -6,17 +6,20 @@
 OLS and Multivariate Analysis of Variance test for gene set analysis
 }
 \description{
-             A gene set analysis functions for one-sided test (OLS) and two-sided test (multivariate analysis of variance).
-             If the experimental conditions are equal to 2, the p-value for Hotelling's t^2 test is calculated.
-             If the experimental conditions are great than 2, the p-value for Wilks' Lambda is deterimined and post-hoc test is reported too.
-             The p-value for individual gene test of significant gene sets are also listed.}
+A gene set analysis function for one-sided test (OLS) and two-sided test (multivariate analysis of variance).
+Three multiple comparison procedures, Dunnett, Tukey, and sequential pairwise comparison, are implemented. 
+MAVTgsa computes the p-values and FDR (false discovery rate) q-values for all gene sets.
+The p-values for individual genes in a significant gene set are also listed.
+MAVTgsa generates a GST-plot of the empirical distribution function of the ranked test statistics of a given gene set.
+}
 \details{
 \tabular{ll}{
 Package: \tab MAVTgsa\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
-Date: \tab 2012-02-01\cr
-License: \tab No commercial use\cr
+Date: \tab 2012-10-04\cr
+License: \tab What license is it under?\cr
+LazyLoad: \tab yes\cr
 }
 
 }
@@ -31,5 +34,4 @@ Chen,J.J. et al. (2007) Significance analysis of group of genes in expression pr
 Tsai,C.A. et al. (2009) Multivariate analysis of variance test for gene set analysis. Bioinformatics, 25, 897.
 }
 
-\keyword{ gene set analysis, OLS, Hotelling's T2, MANOVA }
-
+\keyword{ one-sided test, MANOVA test, multiple comparisons, OLS test, gene set analysis, GST-plot }
