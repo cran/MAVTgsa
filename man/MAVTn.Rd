@@ -16,7 +16,7 @@ MAVTn(DATA, GS, MCP = 1, alpha = 0.01, nbPerm = 5000)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{DATA}{
-an (m+1) x n gene expression data matrix with n samples in columns. The first row contains the information of experimental condition of each sample.  The genes are ex-pressed in the rest m rows.
+an (m+1) x n gene expression data matrix with n samples in columns. The first row contains the information of experimental condition of each sample.  The genes are expressed in the rest m rows.
 }
   \item{GS}{
 an m x k binary matrix with code (0, 1), where k is the number of gene sets.  Each column represents a pre-defined gene set.

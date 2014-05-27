@@ -1,1 +1,3 @@
 exportPattern("^[[:alpha:]]+")
+import(corpcor)
+import(foreach, MASS, randomForest, multcomp)
